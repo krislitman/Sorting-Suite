@@ -1,7 +1,10 @@
+from ..classes import converter
+
+
 class BubbleSort:
 
     def sort(self, list):
-        converted = self.convertList(list)
+        converted = converter.convertList(list)
         length = len(converted) - 1
         for c in converted:
             for l in range(length):
@@ -10,19 +13,5 @@ class BubbleSort:
                     converted[l] = converted[l + 1]
                     converted[l + 1] = value
 
-        expected = self.convertBack(converted)
+        expected = converter.convertBack(converted)
         return expected
-
-    def convertList(self, list):
-        newList = []
-        for l in list:
-            newList.append(ord(l))
-
-        return newList
-
-    def convertBack(self, list):
-        newList = []
-        for l in list:
-            newList.append(chr(l))
-
-        return newList

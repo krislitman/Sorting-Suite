@@ -1,5 +1,6 @@
 import pytest
 from ..classes.bubble_sort import BubbleSort
+from ..classes import converter
 
 
 def test_bubble_sort_exists():
@@ -9,13 +10,13 @@ def test_bubble_sort_exists():
 
 def test_bubble_sort_can_convert_values():
     bubble = BubbleSort()
-    converted = bubble.convertList(["d", "b", "a", "c"])
+    converted = converter.convertList(["d", "b", "a", "c"])
     assert(converted == [100, 98, 97, 99])
 
 
 def test_bubble_sort_can_convert_values_back():
     bubble = BubbleSort()
-    converted = bubble.convertBack([100, 98, 97, 99])
+    converted = converter.convertBack([100, 98, 97, 99])
     assert(converted == ["d", "b", "a", "c"])
 
 
