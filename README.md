@@ -1,6 +1,6 @@
 # Sorting Suite
 
-Python Classes that run various Algorithms
+### Python Classes that run various Algorithms
 
 From Turing Mod1 Extension Projects: [Sorting Suite](https://backend.turing.edu/module1/projects/sorting_suite)
 
