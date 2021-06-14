@@ -2,6 +2,8 @@
 
 Python Classes that run various Algorithms
 
+From Turing Mod1 Extension Projects: [Sorting Suite](https://backend.turing.edu/module1/projects/sorting_suite)
+
 ## Table of Contents
 
   - [Author](#author)
@@ -24,13 +26,18 @@ These instructions will get you up and running with a copy of the project on
 your local machine for development and testing purposes.
 
 1. Fork and Clone this repo
-2. Install all the required packages in the Gemfile with the command: `poetry install`
+2. Install all the required packages in the Gemfile with the command: 
+```
+$ poetry install
+```
 
 ## Running the tests 
 
 **Testing with Pytest**
 To run the full test suite you will need to run the command:
-`pytest`
+```
+$ pytest
+```
 
 ## Built With
 
