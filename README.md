@@ -43,6 +43,7 @@ $ pytest
 
 - Python
 - Pytest
+- Poetry
 
 ## Versions
 
