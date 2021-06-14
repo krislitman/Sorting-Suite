@@ -1,5 +1,4 @@
 class BubbleSort:
-    list = []
 
     def sort(self, list):
         converted = self.convertList(list)
