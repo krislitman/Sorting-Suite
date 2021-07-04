@@ -2,6 +2,8 @@ import pytest
 from ..classes import converter
 from ..classes.insertion_sort import InsertionSort
 
+# * Insertion Sort Tests
+
 
 def test_insertion_sort_exists():
     insertion = InsertionSort()
